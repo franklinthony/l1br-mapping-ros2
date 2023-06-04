@@ -32,4 +32,20 @@ Foi desenvolvido como projeto da disciplina Robótica um pipeline para realizar 
 
 ## :grey_question: Como executar
 
-- 
+Basta [clicar aqui](https://drive.google.com/drive/folders/1imoPEQZb_cDR7WrmB_l8wDuNbp8qPnyD), baixar os arquivos e executar os comandos a seguir. 
+
+- Passo 1: source /opt/ros/humble/setup.bash  
+
+- Passo 2: colcon build
+
+- Passo 3: cd install  & . setup.bash
+
+Obs.: Executar os comandos abaixo em terminais separados
+
+- Passo 4: ros2 launch ugv_simulation world_launch.py
+
+- Passo 5: ros2 launch ugv_robots_description l1br_description_launch.py
+
+- Passo 6: ros2 launch ugv_navigation navigation.launch.py
+
+- Passo 7: ros2 launch slam_gmapping slam_gmapping.launch.py 
